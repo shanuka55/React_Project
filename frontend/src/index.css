@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+}
+
+body {
+    @apply bg-gray-300;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reem Kufi", sans-serif !important;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .App {
+    min-height: 100vh;
+    width: 85vw;
+    max-width: 1900px;
+    margin: 0rem auto;
+  }
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: #f6f6f6;
+  }
+  
+  
+  
+  
+  
+  .home-bannerImage-container {
+      position: absolute;
+      top: -100px;
+      right: -170px;
+      z-index:  -1;
+      max-width: 700px;
+    }
+  
+    .home-text-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 25px;
+      margin-bottom: 25px;
+    }
+    .primary-heading {
+      font-size: clamp(2rem, 5vw, 4rem);
+      color: #4c4c4c;
+      /* line-height: 5rem; */
+      max-width: 600px;
+      margin-left: 50px;
+    }
+    .primary-text {
+      font-size: clamp(1rem, 3vw, 1.5rem);
+      max-width: 500px;
+      color: #6a6a6a;
+      margin: 1.5rem 0rem;
+      margin-left: 50px;
+    }
+    .secondary-button {
+      padding: 1rem 2.5rem;
+      background-color: #fea60d;
+      outline: none;
+      border: none;
+      border-radius: 5rem;
+      font-size: 1.1rem;
+      cursor: pointer;
+      font-weight: 600;
+      color: white;
+      transition: 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 70px;
+    }
+    .secondary-button svg {
+      margin-left: 0.75rem;
+      font-size: 1.5rem;
+    }
+    .secondary-button:hover {
+      background-color: #e48f0f;
+    }
+    .home-image-section{
+      position: absolute;
+      left: 350px;
+      top: 350px;
+      
+    }
+
+
+    .about-section-container {
+      margin-top: 20rem;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .about-background-image-container {
+      position: absolute;
+      left: -100px;
+      bottom:5px;
+      z-index: -2;
+    }
+
+
